@@ -63,3 +63,5 @@ systemd.timers."auto-update-config" = {
     wantedBy = [ "multi-user.target" ]; # Ensure the service starts after rebuild
   };
 }
+
+# flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
